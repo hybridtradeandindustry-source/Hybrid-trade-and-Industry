@@ -1,0 +1,14 @@
+{
+  "name": "elecnova-sage-sync-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sage 50 sync agent for Elecnovatech Enterprise AI OS",
+  "scripts": {
+    "start": "npx tsx index.ts",
+    "sync-once": "SYNC_INTERVAL_MINUTES=999 npx tsx index.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5"
+  }
+}
